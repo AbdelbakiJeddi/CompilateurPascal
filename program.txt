@@ -1,0 +1,16 @@
+program exemple;
+var
+    x,y : integer;
+begin
+    x := 10;
+    y := 20;
+    if x < y then
+        writeln(x) 
+    else 
+        writeln(y);
+    while x < y do 
+        x := x + 1;
+end.                         
+
+
+
