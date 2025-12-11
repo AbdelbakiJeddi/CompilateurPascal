@@ -119,7 +119,6 @@ Token getNextToken(FILE *file) {
         return token;
     }
 
-    /* store first char tentatively */
     token.lexeme[pos++] = (char)c;
     token.lexeme[pos] = '\0';
 
